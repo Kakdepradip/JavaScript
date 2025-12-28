@@ -8,7 +8,7 @@ console.log("you are a oldage");
 }else if(age<80){
     console.log("you are a geniuous");
     
-}**/
+}
 
 let mode="white";
 let color;
@@ -21,4 +21,23 @@ if(mode==="dark"){
 }else if(mode==="gold"){
     color="shadow"
 }
-console.log(color)
+console.log(color)**/
+
+let marks=91;
+let grade;
+if(marks>=90){
+console.log("A");
+
+}else if(marks<90){
+    console.log("B");
+    
+}else if(marks>70){
+    console.log("c");
+    
+}else if(marks>50){
+console.log("d");
+
+}else{
+    console.log('c');
+    
+}
